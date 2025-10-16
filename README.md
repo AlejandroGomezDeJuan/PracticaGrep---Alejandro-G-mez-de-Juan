@@ -66,6 +66,6 @@ public static void main(String[] args) {
 El programa ejecuta un proceso externo desde Java, en este caso el comando grep, envía un texto para que lo procese y muestra en pantalla únicamente las líneas que coinciden con el patrón buscado. Primero se lanza el proceso con Runtime.getRuntime().exec(COMANDO) y se preparan los flujos de entrada y salida: PrintWriter permite enviar el texto al proceso y BufferedReader permite leer lo que devuelve. A continuación, se envía todo el contenido de TEXTO y se cierra el flujo de escritura, indicando que no habrá más datos. Después, se imprime un título y se recorren línea por línea los resultados, mostrando solo las coincidencias. Por último, se espera a que el proceso termine con waitFor() y se comprueba si terminó correctamente; en caso de error, se muestra un mensaje. Todo el bloque está dentro de un try-catch para manejar posibles problemas de entrada/salida o interrupciones, mostrando la información del error si ocurre.
 
 ### Enlace a github
- - 
+ - https://github.com/AlejandroGomezDeJuan/PracticaGrep---Alejandro-G-mez-de-Juan.git
 
 
